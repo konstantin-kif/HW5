@@ -34,7 +34,7 @@ void PrintArray(int[] array)
     Console.Write("]");
 }
 
-int EvenNumberCounter(int[] array)
+int EvenNumberCounter(int[] array)                  // четные числа
 {
     int evenCount = 0;
     for (int i = 0; i < array.Length; i++)
