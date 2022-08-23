@@ -47,7 +47,7 @@ int EvenIndexNumSum(int[] array)        //нечетные числа
 }
 
 int sizeArray = Prompt("Введите размер массива: ");
-for (int i = 0; i < 4; i++)
+for (int i = 0; i < 2; i++)
 {
     int[] newArray = FillArray(sizeArray);
     PrintArray(newArray);
